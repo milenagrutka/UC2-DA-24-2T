@@ -94,7 +94,7 @@ console.log(pokemons.length)
 
 /*
 //Exemplo includes(elemento)
-const seriesBoas = ["Vikings","The Bib Bang Theory"]
+const seriesBoas = ["Vikings","The Big Bang Theory"]
 console.log(seriesBoas.includes("Vikings"))
 console.log(seriesBoas.includes("Game of Thrones"))
 */
