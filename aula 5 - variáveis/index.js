@@ -89,9 +89,20 @@ console.log("Você está usando óculos hoje? -",resposta3)
 let a = 10
 let b = 25
 
+let antigoa = 10
+
 a = b
-b = a
+b = antigoa
 
 console.log ("o novo valor de a é", b)
 console.log ("o novo valor de b é", a)
+*/
+
+/*
+//Desafio
+const numero1 = prompt Number("Digite um número:")
+const numero2 = prompt Number("Digite outro número:")
+
+let x = numero1 + numero2
+let y = numero1 * numero2
 */
