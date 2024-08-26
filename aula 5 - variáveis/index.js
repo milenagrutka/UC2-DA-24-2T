@@ -59,29 +59,27 @@ console.log (typeof nome)
 console.log (typeof idade)
 //4 impresso na tela nome e idade indefinida pois não foi definido um valor para variável.
 //5
-const nomeDoUsuario = prompt("Qual seu nome?")
-console.log("nome", nomeDoUsuario)
-const idadeDoUsuario = prompt("Qual sua idade?")
-console.log("idade", idadeDoUsuario)
+const nome = prompt("Qual seu nome?")
+const idade = prompt("Qual sua idade?")
 //6
-
+console.log(typeof nome)
+//será em string
+console.log(typeof idade)
+//será em number
 //7
-alert(`Olá ${nomeDoUsuario}, você tem ${idadeDoUsuario} anos.`)
+console.log("Olá `nome`, você tem `idade` anos".)
 */
 
 /*
 //Revisão 2
 //a)
-let resposta1
-let resposta2
-let resposta3
-let pergunta1 = "Você está usando uma roupa preta hoje?"
-let pergunta2 = "Você está usando tênis hoje?"
-let pergunta3 = "Você está usando óculos hoje?"
+let roupaPreta = sim
+let tenis = sim
+let oculos = nao
 //b)
-console.log("Você está usando uma roupa preta hoje? -",resposta1)
-console.log("Você está usando tênis hoje? -",resposta2)
-console.log("Você está usando óculos hoje? -",resposta3)
+console.log(Você está usando uma roupa preta hoje?,roupaPreta)
+console.log(Você está usando tenis hoje?,tenis)
+console.log(Você está usando oculos hoje?,oculos)
 */
 
 /*
@@ -100,8 +98,8 @@ console.log ("o novo valor de b é", a)
 
 /*
 //Desafio
-const numero1 = prompt Number("Digite um número:")
-const numero2 = prompt Number("Digite outro número:")
+let numero1 = prompt(“Digite o número 1”)
+let numero2 = prompt(“Digite o número 2”)
 
 let x = numero1 + numero2
 let y = numero1 * numero2
