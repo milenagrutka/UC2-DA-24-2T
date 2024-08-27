@@ -22,7 +22,7 @@ console.log('d.',array[i])
 //imprimi na tela informações da string 'd. 3' 
 
 array[i+1]=19
-//defini o valor de i+1(que seria o indice 4 no array) como 19
+//defini o valor de i+1(que seria o indice 1 no array-nº4) como 19
 console.log('e.',array)
 //imprimi na tela informações da string 'e. [3,19,5,6,7,8,9,10,11,12,13]' substituindo o 4 por 19
 
@@ -49,6 +49,8 @@ const nomeDoUsuario = prompt("Qual seu nome?")
 console.log("Nome:", nomeDoUsuario)
 const emailDoUsuario = prompt("Qual seu e-mail?")
 console.log("Email", emailDoUsuario)
+const frase = "O e-mail" + emailDoUsuario + "foi cadastrado com sucesso. Seja bem-vindo(a)" + nomeDoUsuario + "!"
+console.log(frase)
 alert(`O e-mail ${emailDoUsuario}, foi cadastrado com sucesso. Seja bem-vindo(a), ${nomeDoUsuario}!`)
 */
 
@@ -58,13 +60,12 @@ const comidasPreferidas = ["lasanha","pizza","hamburguer","chocolate","crepe"]
 //a)
 console.log(comidasPreferidas)
 //b)
-console.log(comidasPreferidas[4])
 console.log(`Essas são minhas comidas preferidas:
-${comidasPreferidas[0]} 
-${comidasPreferidas[1]} 
-${comidasPreferidas[2]} 
-${comidasPreferidas[3]} 
-${comidasPreferidas[4]}`)
+console.log(comidasPreferidas[0])
+console.log(comidasPreferidas[1])
+console.log(comidasPreferidas[2])
+console.log(comidasPreferidas[3])
+console.log(comidasPreferidas[4])
 //c)
 const comidaPreferidaUsuario = prompt("Qual sua comida preferida?")
 comidasPreferidas.splice(1,4) 
@@ -74,24 +75,7 @@ console.log(comidasPreferidas)
 
 /*
 //Exercício5
-let listaTarefas = []
-
-listaTarefas[0] = prompt('Cite uma tarefa para lista')
-listaTarefas[1] = prompt('Cite outra tarefa')
-listaTarefas[2] = prompt('Mais uma tarefa')
-console.log(listaTarefas)
-
-const index = listaTarefas.indexOf(prompt('Qual tarefa você já realizou?')) 
-if (index > -1) {
-  listaTarefas.splice(index, 1);
-}
-
-prompt
-Push
-console.log
-*/
-
-/*
-//Desafio1
-
+let listaDeTarefas = []
+const tarefa1 = prompt("Digite a tarefa")
+listaDeTarefas.push(tarefa1)
 */
