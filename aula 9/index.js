@@ -59,17 +59,32 @@ const comidasPreferidas = ["lasanha","pizza","hamburguer","chocolate","crepe"]
 console.log(comidasPreferidas)
 //b)
 console.log(comidasPreferidas[4])
-const frase = `Essas são minhas comidas preferidas: ${comidasPreferidas}!`
+console.log(`Essas são minhas comidas preferidas:
+${comidasPreferidas[0]} 
+${comidasPreferidas[1]} 
+${comidasPreferidas[2]} 
+${comidasPreferidas[3]} 
+${comidasPreferidas[4]}`)
 //c)
 const comidaPreferidaUsuario = prompt("Qual sua comida preferida?")
 comidasPreferidas.splice(1,4) 
-comidasPreferidas.push(comidaPreferidaUsuario,"pizza","hamburguer","chocolate","crepe")
+comidasPreferidas.push
 console.log(comidasPreferidas)
 */
 
 /*
 //Exercício5
-const listaDeTarefas = [1,2,3]
+let listaTarefas = []
+
+listaTarefas[0] = prompt('Cite uma tarefa para lista')
+listaTarefas[1] = prompt('Cite outra tarefa')
+listaTarefas[2] = prompt('Mais uma tarefa')
+console.log(listaTarefas)
+
+const index = listaTarefas.indexOf(prompt('Qual tarefa você já realizou?')) 
+if (index > -1) {
+  listaTarefas.splice(index, 1);
+}
 
 prompt
 Push
