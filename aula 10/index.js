@@ -207,24 +207,23 @@ if(!condicao1){
 
 //Exercício:
 let ensinoMedio = prompt("Você concluiu o ensino médio?")
+if (ensinoMedio === 'sim') {
+    ensinoMedio = true
+} else {
+    ensinoMedio = false
+}
 let idade = prompt("Qual a sua idade?")
-let faculdade = prompt("Você está cursando outra faculdade no momento?")
-
-if (ensinoMedio === 'não') {
-    console.log("Você deve ter concluído o ensino médio para poder estudar na faculdade.")
-}
-else{
-    console.log("Você pode estudar na faculdade")
-}
 if (idade < 18) {
-    console.log("Você deve ter 18 anos ou mais para poder estudar na faculdade.")
+    idade = true
+} else {
+    idade = false
 }
-else{
-    console.log("Você pode estudar na faculdade")
+let faculdade = prompt("Você está cursando outra faculdade no momento?")
+if (faculdade === 'não') {
+} else {
+    faculdade = false
 }
-if (faculdade === 'sim') {
-    console.log("Você não pode estar cursando outra faculdade.")
-}
-    else{
-        console.log("Você pode estudar na faculdade")
+
+if(ensinoMedio&&idade&&faculdade) {
+console.log('Você pode cursar na nossa faculdade')
 }
