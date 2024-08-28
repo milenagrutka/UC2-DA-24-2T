@@ -1,4 +1,4 @@
-//Condicionais: Se ou Senão - decisão 
+//Condicionais: Se ou Senão - decisão
 /*
 //Exemplo if - se
 let condicao1 = true
@@ -204,29 +204,33 @@ if(!condicao1){
 }
 */
 
-
+/*
 //Exercício:
-let ensinoMedio = prompt("Você concluiu o ensino médio?")
-if (ensinoMedio === 'sim') {
-    ensinoMedio = true
+let ensinoMedio = prompt("Você concluiu o ensino médio?");
+if (ensinoMedio === "sim") {
+  ensinoMedio = true;
 } else {
-    ensinoMedio = false
+  ensinoMedio = false;
 }
-let idade = prompt("Qual a sua idade?")
-if (idade < 18) {
-    idade = true
+let idade = prompt("Qual a sua idade?");
+if (idade > 18) {
+  idade = true;
 } else {
-    idade = false
+  idade = false;
 }
-let faculdade = prompt("Você está cursando outra faculdade no momento?")
-if (faculdade === 'não') {
-    faculdade = true
+let faculdade = prompt("Você está cursando outra faculdade no momento?");
+if (faculdade === "não") {
+  faculdade = true;
 } else {
-    faculdade = false
+  faculdade = false;
 }
 
-if(ensinoMedio&&idade&&faculdade) {
-console.log("Você pode cursar a faculdade")
-}else {
-    console.log("Você nao pode cursar a faculdade")
-    }
+if (ensinoMedio && idade && faculdade) {
+  console.log("Você pode cursar a faculdade");
+} else {
+  console.log("Você não pode cursar a faculdade");
+}
+*/
+
+
+//Desafio:
