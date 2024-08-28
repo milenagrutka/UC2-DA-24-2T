@@ -220,10 +220,13 @@ if (idade < 18) {
 }
 let faculdade = prompt("Você está cursando outra faculdade no momento?")
 if (faculdade === 'não') {
+    faculdade = true
 } else {
     faculdade = false
 }
 
 if(ensinoMedio&&idade&&faculdade) {
-console.log('Você pode cursar na nossa faculdade')
-}
+console.log("Você pode cursar a faculdade")
+}else {
+    console.log("Você nao pode cursar a faculdade")
+    }
